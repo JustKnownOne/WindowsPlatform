@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "slider", "slider.vcxproj", "{68C01828-A7D1-4762-BD89-BF0F5354BA32}"
+	ProjectSection(ProjectDependencies) = postProject
+		{671C9E12-918E-4652-A79E-C92A99C3664F} = {671C9E12-918E-4652-A79E-C92A99C3664F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileEx", "..\FileEx\FileEx.vcxproj", "{671C9E12-918E-4652-A79E-C92A99C3664F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68C01828-A7D1-4762-BD89-BF0F5354BA32}.Debug|Win32.ActiveCfg = Debug|Win32
+		{68C01828-A7D1-4762-BD89-BF0F5354BA32}.Debug|Win32.Build.0 = Debug|Win32
+		{68C01828-A7D1-4762-BD89-BF0F5354BA32}.Release|Win32.ActiveCfg = Release|Win32
+		{68C01828-A7D1-4762-BD89-BF0F5354BA32}.Release|Win32.Build.0 = Release|Win32
+		{671C9E12-918E-4652-A79E-C92A99C3664F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{671C9E12-918E-4652-A79E-C92A99C3664F}.Debug|Win32.Build.0 = Debug|Win32
+		{671C9E12-918E-4652-A79E-C92A99C3664F}.Release|Win32.ActiveCfg = Release|Win32
+		{671C9E12-918E-4652-A79E-C92A99C3664F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
